@@ -1,8 +1,8 @@
 package handler
 
 import (
+	"github.com/kekim-go/Gateway/models"
 	"github.com/labstack/echo/v4"
-	"gitlab.com/promptech1/infuser-gateway/models"
 )
 
 func (h *Handler) RegistAppToken(c echo.Context) error {

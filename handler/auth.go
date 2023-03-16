@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
+	grpc_author "github.com/kekim-go/Protobuf/gen/proto/author"
+	"github.com/kekim-go/Gateway/models"
 	"github.com/labstack/echo/v4"
 	"github.com/sirupsen/logrus"
-	grpc_author "gitlab.com/promptech1/infuser-gateway/infuser-protobuf/gen/proto/author"
-	"gitlab.com/promptech1/infuser-gateway/models"
 )
 
 func (h *Handler) RegisterPortalKey(c echo.Context) error {

@@ -3,15 +3,16 @@ package handler
 
 import (
 	"encoding/json"
+	"html"
 	"strconv"
 	"strings"
 
 	"github.com/clbanning/mxj/v2"
+	"github.com/kekim-go/Gateway/constant"
+	"github.com/kekim-go/Gateway/enum"
+	grpc_author "github.com/kekim-go/Protobuf/gen/proto/author"
+	grpc_executor "github.com/kekim-go/Protobuf/gen/proto/executor"
 	"github.com/labstack/echo/v4"
-	"gitlab.com/promptech1/infuser-gateway/constant"
-	"gitlab.com/promptech1/infuser-gateway/enum"
-	grpc_author "gitlab.com/promptech1/infuser-gateway/infuser-protobuf/gen/proto/author"
-	grpc_executor "gitlab.com/promptech1/infuser-gateway/infuser-protobuf/gen/proto/executor"
 )
 
 // ExecuteAPI: 활용자의 Rest API 요청을 처리함. gRPC를 통해 필요한 데이터를 교환하고 그결과를 JSON 형태로 반환함

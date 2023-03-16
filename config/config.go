@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"github.com/sirupsen/logrus"
-	"gitlab.com/promptech1/infuser-gateway/constant"
+	"github.com/kekim-go/Gateway/constant"
 	"gopkg.in/yaml.v2"
 )
 

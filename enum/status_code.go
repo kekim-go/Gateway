@@ -1,7 +1,7 @@
 // enum: 열거형 자료 정의
 package enum
 
-import grpc_author "gitlab.com/promptech1/infuser-gateway/infuser-protobuf/gen/proto/author"
+import grpc_author "github.com/kekim-go/Protobuf/gen/proto/author"
 
 type ResCode int32
 

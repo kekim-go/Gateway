@@ -1,10 +1,10 @@
 package handler
 
 import (
+	"github.com/kekim-go/Gateway/enum"
+	"github.com/kekim-go/Gateway/handler/middleware"
+	grpc_executor "github.com/kekim-go/Protobuf/gen/proto/executor"
 	"github.com/labstack/echo/v4"
-	"gitlab.com/promptech1/infuser-gateway/enum"
-	"gitlab.com/promptech1/infuser-gateway/handler/middleware"
-	grpc_executor "gitlab.com/promptech1/infuser-gateway/infuser-protobuf/gen/proto/executor"
 )
 
 type MetaResults struct {

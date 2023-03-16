@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"gitlab.com/promptech1/infuser-gateway/client"
-	"gitlab.com/promptech1/infuser-gateway/config"
+	"github.com/kekim-go/Gateway/client"
+	"github.com/kekim-go/Gateway/config"
 )
 
 type Handler struct {

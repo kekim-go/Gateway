@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/kekim-go/Gateway/client"
+	"github.com/kekim-go/Gateway/config"
+	"github.com/kekim-go/Gateway/handler"
+	"github.com/kekim-go/Gateway/router"
 	"github.com/labstack/echo/v4"
-	"gitlab.com/promptech1/infuser-gateway/client"
-	"gitlab.com/promptech1/infuser-gateway/config"
-	"gitlab.com/promptech1/infuser-gateway/handler"
-	"gitlab.com/promptech1/infuser-gateway/router"
 )
 
 func main() {

@@ -1,10 +1,10 @@
 package middleware
 
 import (
+	"github.com/kekim-go/Gateway/client"
+	"github.com/kekim-go/Gateway/enum"
+	grpc_author "github.com/kekim-go/Protobuf/gen/proto/author"
 	"github.com/labstack/echo/v4"
-	"gitlab.com/promptech1/infuser-gateway/client"
-	"gitlab.com/promptech1/infuser-gateway/enum"
-	grpc_author "gitlab.com/promptech1/infuser-gateway/infuser-protobuf/gen/proto/author"
 )
 
 func CheckAuth(authPool *client.Pool, c echo.Context) (*grpc_author.ApiAuthRes, enum.ResCode) {

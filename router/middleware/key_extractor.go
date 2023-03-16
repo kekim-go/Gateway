@@ -4,9 +4,9 @@ package middleware
 import (
 	"net/http"
 
+	"github.com/kekim-go/Gateway/config"
+	"github.com/kekim-go/Gateway/enum"
 	"github.com/labstack/echo/v4"
-	"gitlab.com/promptech1/infuser-gateway/config"
-	"gitlab.com/promptech1/infuser-gateway/enum"
 )
 
 type (
